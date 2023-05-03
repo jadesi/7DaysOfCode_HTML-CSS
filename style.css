@@ -16,6 +16,10 @@
 }
 
 body {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
     background: var(--background);
     font-family: "Inter", sans-serif;
     width: 100%;
@@ -26,9 +30,7 @@ nav {
     align-items: center;
     justify-content: center;
     width: 1440px;
-    height: 80px;
-
-    border: solid 1px red;    
+    height: 80px;   
 }
 
 ul{
@@ -37,8 +39,6 @@ ul{
     color: var(--text-color-400);
     gap: 32px;
     margin-left: 119px;
-
-    border: solid 1px rgb(90, 49, 226); 
 }
 
 .logotipo {
@@ -47,9 +47,7 @@ ul{
     margin-left: 112px;
     align-items: center;
     gap: 8px;
-    color: var(--logo-text-color);
-
-    border: solid 1px rgb(255, 0, 191); 
+    color: var(--logo-text-color); 
 }
 
 .cta {
@@ -59,9 +57,6 @@ ul{
     margin-right: 112px;
     gap: 30px;
     color:var(--text-color-400);
-    
-
-    border:solid 1px green;
 }
 
 button{
@@ -83,8 +78,6 @@ button{
     align-items: center;
     padding: 96px 0px;
     gap: 24px;
-
-    border: solid 1px yellow;
 }
 
 .header span{
@@ -110,8 +103,14 @@ button{
     align-items: center;
     padding: 0px 0px 96px;
     gap: 64px;
+}
 
-    border: solid 1px purple;
+.metricas_gerais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 64px;
 }
 
 .metrics h1{
@@ -142,8 +141,6 @@ button{
     align-items: center;
     padding: 96px 0px;
     gap: 64px;
-
-    border: solid 1px red;
 }
 
 .intro{
@@ -153,8 +150,6 @@ button{
     align-items: center;
     justify-content: center;
     gap: 16px;
-
-    border: solid 1px goldenrod;
 }
 
 .intro span{
@@ -177,6 +172,7 @@ button{
 .intro p{
     font-size: 20px;
     color: var(--text-color-400);
+    padding-bottom: 64px;
 }
 
 .vagas_abertas {
@@ -186,8 +182,6 @@ button{
     flex-direction: column;    
     align-items: center;
     gap: 24px;
-
-    border: solid 1px orange;
 }
 
 .area {
@@ -197,8 +191,6 @@ button{
     align-items: flex-start;
 
     gap: 24px;
-
-    border: solid 1px cyan;
 }
 
 .título_area{
@@ -243,8 +235,6 @@ button{
     background-color: var(--color-contrast-tittle);
     
     margin: 0px 96px 112px;
-
-    border: solid 1px rebeccapurple;
 }
 
 .texto{
@@ -292,8 +282,6 @@ footer {
     justify-content: center;
     padding: 96px 0px;
     background-color: var(--background-footer);
-    
-    border: solid 1px red;
 }
 
 .footer_infos{
